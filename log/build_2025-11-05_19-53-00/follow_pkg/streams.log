@@ -1,0 +1,26 @@
+[0.521s] Invoking command in '/home/daniele/scoperta/src/follow_pkg': PYTHONPATH=/home/daniele/scoperta/build/follow_pkg/prefix_override:/home/daniele/scoperta/install/follow_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/follow_pkg build --build-base /home/daniele/scoperta/build/follow_pkg/build install --record /home/daniele/scoperta/build/follow_pkg/install.log --single-version-externally-managed
+[0.685s] running egg_info
+[0.685s] writing ../../build/follow_pkg/follow_pkg.egg-info/PKG-INFO
+[0.685s] writing dependency_links to ../../build/follow_pkg/follow_pkg.egg-info/dependency_links.txt
+[0.686s] writing entry points to ../../build/follow_pkg/follow_pkg.egg-info/entry_points.txt
+[0.686s] writing requirements to ../../build/follow_pkg/follow_pkg.egg-info/requires.txt
+[0.686s] writing top-level names to ../../build/follow_pkg/follow_pkg.egg-info/top_level.txt
+[0.688s] reading manifest file '../../build/follow_pkg/follow_pkg.egg-info/SOURCES.txt'
+[0.688s] adding license file 'LICENSE'
+[0.689s] writing manifest file '../../build/follow_pkg/follow_pkg.egg-info/SOURCES.txt'
+[0.689s] running build
+[0.689s] running build_py
+[0.689s] running install
+[0.689s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.689s]   warnings.warn(
+[0.689s] running install_lib
+[0.690s] running install_data
+[0.691s] copying resource/follow_pkg -> /home/daniele/scoperta/install/follow_pkg/share/ament_index/resource_index/packages
+[0.691s] copying package.xml -> /home/daniele/scoperta/install/follow_pkg/share/follow_pkg
+[0.691s] running install_egg_info
+[0.693s] removing '/home/daniele/scoperta/install/follow_pkg/lib/python3.10/site-packages/follow_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.693s] Copying ../../build/follow_pkg/follow_pkg.egg-info to /home/daniele/scoperta/install/follow_pkg/lib/python3.10/site-packages/follow_pkg-0.0.0-py3.10.egg-info
+[0.693s] running install_scripts
+[0.710s] Installing follow script to /home/daniele/scoperta/install/follow_pkg/lib/follow_pkg
+[0.710s] writing list of installed files to '/home/daniele/scoperta/build/follow_pkg/install.log'
+[0.727s] Invoked command in '/home/daniele/scoperta/src/follow_pkg' returned '0': PYTHONPATH=/home/daniele/scoperta/build/follow_pkg/prefix_override:/home/daniele/scoperta/install/follow_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/follow_pkg build --build-base /home/daniele/scoperta/build/follow_pkg/build install --record /home/daniele/scoperta/build/follow_pkg/install.log --single-version-externally-managed
