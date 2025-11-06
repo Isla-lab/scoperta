@@ -1,3 +1,0 @@
-[console_scripts]
-follow = follow_pkg.follow:main
-

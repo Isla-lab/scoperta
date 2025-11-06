@@ -1,4 +1,4 @@
-install/
-log/
-build/
+install/*
+log/*
+build/*
 *.Identifier
