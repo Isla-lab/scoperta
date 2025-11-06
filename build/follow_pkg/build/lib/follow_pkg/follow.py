@@ -61,14 +61,21 @@ class Turtlebot3Follow(Node):
         self.range_view.clear()
         self.angle_view.clear()
 
+        if min(msg.ranges) > 0.3:
+            self.linear_vel = 0.1
+            self.angular_vel = 0.0
+        else:
+            self.linear_vel = 0.0
+            self.angular_vel = 0.0
+
 
         # Write your code here
-        for i in range(len(msg.ranges)):
-            angle = msg.angle_min + i * msg.angle_increment
-            distance = msg.ranges[i]
-            self.angle_view.append(angle)
-            self.range_view.append(distance)
-            print(f"Angle: {angle:.2f}, Distance: {distance:.2f}")
+        # for i in range(len(msg.ranges)):
+        #     angle = msg.angle_min + i * msg.angle_increment
+        #     distance = msg.ranges[i]
+        #     self.angle_view.append(angle)
+        #     self.range_view.append(distance)
+        #     print(f"Angle: {angle:.2f}, Distance: {distance:.2f}")
 
 
 def main(args=None):
