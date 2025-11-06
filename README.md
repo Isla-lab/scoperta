@@ -51,28 +51,24 @@ These tutorials explain how to connect ROS 2 nodes with CoppeliaSim via topics, 
 This project is organized as a standard **ROS 2 colcon workspace**:
 
 ```
-mobile_robot_ws/
-├── src/
-│   ├── follow_pkg/          # LIDAR-based reactive navigation
-│   └── high_level_control/  # Finite-state machine (FSM) for mission control
-└── README.md
+src/
+├── follow_pkg/          # LIDAR-based reactive navigation
+└── high_level_control/  # Finite-state machine (FSM) for mission control
+README.md
+scenes/
+├── limo.ttt             # The Coppelia scene with the robot (File -> Open Scene...)
 ```
 
 ---
 
 ## ⚙️ Build and Source Instructions
 
-1. Navigate to the workspace root:
-   ```bash
-   cd ~/mobile_robot_ws
-   ```
-
-2. Build the workspace:
+1. Build the workspace (ignore the syntax errors, the provided codes are only sketches to solve the respective tasks, hence incomplete):
    ```bash
    colcon build
    ```
 
-3. Source the setup file before running any node:
+2. Source the setup file before running any node:
    ```bash
    source install/setup.bash
    ```
